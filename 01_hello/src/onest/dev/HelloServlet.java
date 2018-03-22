@@ -43,5 +43,12 @@ public class HelloServlet implements Servlet {
 		writer.println("Hello,Welcome goto your first Servlet");
 
 	}
+	public void service1(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		//String name = arg0.getParameter("username");
+		PrintWriter writer = arg1.getWriter();
+		writer.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
+	}
 
 }
