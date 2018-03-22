@@ -47,7 +47,7 @@ public class HelloServlet implements Servlet {
 		// TODO Auto-generated method stub
 		//String name = arg0.getParameter("username");
 		PrintWriter writer = arg1.getWriter();
-		writer.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+		writer.println(",,,,,,,,,,,,,,,,,");
 
 	}
 
